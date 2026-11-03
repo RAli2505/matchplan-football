@@ -1,0 +1,19 @@
+/* Original MatchPlan interface; the new white goal maps remain independent. */
+.block-container {max-width:1440px;padding-top:2rem;}
+h1 {letter-spacing:-.06em;font-size:3.5rem!important;line-height:1.05!important;}
+h2,h3 {letter-spacing:-.025em;}
+.scoreboard {background:#172d48;color:white;padding:24px 28px;border-radius:12px;display:flex;
+ justify-content:space-between;align-items:center;gap:16px;margin:16px 0;}
+.scoreboard .team {font-size:clamp(16px,2vw,24px);flex:1;}
+.scoreboard .score {font-size:42px;font-weight:750;white-space:nowrap;}
+.scoreboard .right {text-align:right;}
+.plan {border-left:5px solid #245bc4;padding:14px 20px;background:#e7edf5;margin-bottom:16px;}
+.plan strong {font-size:24px;}
+.small {font-size:14px;color:#60748a;}
+.decision {background:#172d48;color:#fff;padding:24px 28px;border-radius:12px;margin:12px 0 20px;}
+.decision h2 {color:#fff;margin:0 0 10px;font-size:1.8rem;}
+.decision p {margin:0;max-width:75ch;font-size:1.05rem;line-height:1.6;}
+[data-testid="stTabs"] button {font-size:16px;}
+[data-testid="stTabs"] [role="tablist"] {flex-wrap:wrap;height:auto;gap:4px 12px;}
+[data-testid="stTabs"] [role="tab"] {height:auto;white-space:normal;padding:10px 4px;}
+[data-testid="stMetricValue"] {font-size:1.8rem;}
